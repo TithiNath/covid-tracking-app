@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:weightSum="2" android:orientation="vertical" android:gravity="center" android:background="@color/colorPrimaryDark" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="vertical" android:gravity="bottom" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1">
+
+    <ImageView android:layout_height="130dp" android:layout_width="130dp" android:src="@drawable/ic_coronavirus" android:layout_gravity="center" android:id="@+id/splash_image"/>
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/title_tv" android:textSize="20sp" android:textColor="#fff" android:text="COVID-19 Status Tracker" android:layout_marginTop="10dp"/>
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/version_tv" android:textSize="12sp" android:textColor="#fff" android:text="1" android:layout_marginTop="5dp"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:gravity="bottom" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1">
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/name" android:textSize="15sp" android:textColor="#fff" android:text="Developed by Himanshu and Tithi" android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
